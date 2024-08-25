@@ -1,6 +1,4 @@
 # TFTPserver
-# Extended TFTP Server
-
 This project provides an extended implementation of the Trivial File Transfer Protocol (TFTP) server. It supports multiple users and allows them to upload and download files, as well as receive notifications about file changes. The server and clients communicate using a binary protocol, which includes functionalities for file upload, download, and directory lookup.
 
 ## Key Features
@@ -45,8 +43,6 @@ Follow these steps to set up and run the project:
    ```bash
    java -jar client.jar <server_ip> <server_port>
    ```
-
-   Alternatively, use a client provided by the course staff: [TFTP Rust Client](https://github.com/bguspl/TFTP-rust-client) or create your own.
 
 ## Commands
 
